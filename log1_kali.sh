@@ -183,7 +183,7 @@ XF86Tools
 
 EOF
 mkdir -p /home/$USER/.config/polybar/scripts
-wget -O /home/$USER/.config/polybar/config https://raw.githubusercontent.com/emersonleao/dotfiles_pb/main/polybar/config
+wget -O /home/$USER/.config/polybar/config https://raw.githubusercontent.com/emersonleao/dotfiles_pb/main/kali_polybar_config 
 wget -O /home/$USER/.config/polybar/launch.sh https://raw.githubusercontent.com/emersonleao/dotfiles_pb/main/polybar/launch.sh
 wget -O /home/$USER/.config/polybar/scripts/launch.sh https://raw.githubusercontent.com/emersonleao/dotfiles_pb/main/polybar/scripts/launch.sh
 wget -O /home/$USER/.config/polybar/scripts/pavolume.sh https://raw.githubusercontent.com/emersonleao/dotfiles_pb/main/polybar/scripts/pavolume.sh
