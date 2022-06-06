@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install bspwm sxhkd alacritty ranger scrot xbacklight 
+sudo apt-get install bspwm sxhkd ranger scrot xbacklight 
 mkdir -p /home/$USER/.config/bspwm && touch /home/$USER/.config/bspwm/bspwmrc
 sudo chmod 774 /home/$USER/.config/bspwm/bspwmrc
 cat <<EOF > /home/$USER/.config/bspwm/bspwmrc
@@ -35,7 +35,7 @@ cat <<EOF > /home/$USER/.config/sxhkd/sxhkdrc
 
 # terminal emulator
 super + Return
-	alacritty	
+	x-terminal-emulator	
 
 # program launcher
 super + @space
@@ -43,7 +43,7 @@ super + @space
 
 # open ranger
 super + v
-	alacritty -e ranger
+	x-terminal-emulator -e ranger
 
 # open firefox
 super + b
