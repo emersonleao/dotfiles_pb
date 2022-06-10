@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install bspwm sxhkd ranger scrot xbacklight 
+sudo apt-get install bspwm sxhkd ranger scrot xbacklight polybar dmenu
 mkdir -p /home/$USER/.config/bspwm && touch /home/$USER/.config/bspwm/bspwmrc
 sudo chmod 774 /home/$USER/.config/bspwm/bspwmrc
 cat <<EOF > /home/$USER/.config/bspwm/bspwmrc
