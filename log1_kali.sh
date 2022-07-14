@@ -193,3 +193,6 @@ sudo chmod 774 /home/$USER/.config/polybar/scripts/launch.sh
 sudo chmod 774 /home/$USER/.config/polybar/scripts/pavolume.sh
 wget -O /home/$USER/.tmux.conf https://raw.githubusercontent.com/emersonleao/dotfiles_pb/main/.tmux.conf
 tmux source-file /home/$USER/.tmux.conf
+sudo cat << EOF >> /etc/environment
+"_JAVA_AWT_WM_NONREPARENTING=1"
+EOF
